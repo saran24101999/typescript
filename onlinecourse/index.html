@@ -1,0 +1,55 @@
+<html>
+<head>
+    <title>Online course application</title>
+    <link rel="stylesheet" href="style/style.css"> 
+    <script src="script/script.js"></script>
+</head>
+     <body>
+        <h2>Online Course Enrollement Website</h2>
+
+        <div id="maindiv">
+
+            <label>Username:</label>
+            <input id="newuser" type="text" Required><br><br>
+            <label>Age:</label>
+            <input id="age" type="number" Required><br><br>
+            <label>Mobile Number:</label>
+            <input id="mnum" type="number" Required><br><br>
+
+            <button id="button" type="button" onclick="login()"><B>Login</B></button>
+        </div>
+
+        <div id="confirm">
+            <label>User_id:</label>
+            <input id="regid" type="text" required>
+
+            <button type="button" onclick="coursedetails()">confirm</button>
+        </div> 
+        
+        <div id="coursedetails">
+            <button type="button" onclick="availablecourses()">Available Course</button>
+            <button type="button" onclick="enrollementlist()">Enrolled Course</button>
+        </div>
+        
+        <div id="availablecourses">
+            <select id="selectbox">
+                <option value="css">css</option>
+                
+                <option value="html">html</option>
+                <option value="javasript">javascript</option>
+                <option value="python">python</option>
+                <option value="sql">sql</option></select>
+
+                <button button="button" onclick="course()">select</button>
+            
+        </div>   
+        
+        <div id="enrollementlist">
+            <h3>you are sucessfully enroll the course</h3>
+         
+        </div>   
+            
+            
+
+    </body>
+</html>

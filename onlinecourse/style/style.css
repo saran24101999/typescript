@@ -1,0 +1,45 @@
+h2{
+    text-align: center;
+}
+#maindiv{
+    background-size: 20px;
+    padding-top: 100px;
+    
+    text-align: center;
+}
+#button{
+   font-size: 20px;
+    font-style: oblique;
+    width: 100px;
+    height: 50px;
+    border: 2px solid green;
+    background-color: rgb(206, 206, 228);
+}
+#confirm{
+    display: none;
+    background-size: 20px;
+    padding-top: 150px;
+    
+    text-align: center;
+}
+#coursedetails{
+    display: none;
+    background-size: 20px;
+    padding-top: 150px;
+    
+    text-align: center;
+}
+#availablecourses{
+    display: none;
+    background-size: 20px;
+    padding-top: 100px;
+    
+    text-align: center;
+}
+#enrollementlist{
+    display: none;
+    background-size: 20px;
+    padding-top: 100px;
+    
+    text-align: center;
+}
